@@ -1,5 +1,11 @@
 body {
   font-family: "Lato", sans-serif;
+  min-width: 400px;
+}
+
+main {
+  max-width: 1366px;
+  margin: 0 auto;
 }
 
 .list-unstyled {
@@ -31,6 +37,7 @@ body {
 .hamburguer-icon {
   position: fixed;
   font-size: 2.5em;
+  z-index: 10000;
 }
 
 /* FIRST NAV */
@@ -69,6 +76,45 @@ body {
 .main-logo {
   height: 45px;
 }
+
+/********************************** MAIN ************************/
+
+.main-img-backgr {
+  position: relative;
+  background: url(../images/background-img/top-convention-img.jpg) center center /
+    cover no-repeat;
+  box-shadow: inset 0 550px 0 rgba(225, 225, 225, 0.9);
+  height: 550px;
+}
+
+.top-content-cont {
+  padding: 35px 15px;
+}
+
+.main-title {
+  margin-top: 35px;
+  color: #ff4b37;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+.main-logo-container {
+  margin-top: 0 25px;
+  background-color: rgba(39, 42, 49, 0.3);
+}
+
+.main-big-logo {
+  background-color: rosybrown;
+  margin: 15px;
+}
+
+.headeer {
+  position: absolute;
+  right: 35%;
+  background-color: rgba(39, 42, 49, 0.2);
+  top: 10%;
+}
+
 .temporaly {
   height: 1500px;
   width: 450px;
