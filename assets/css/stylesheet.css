@@ -72,5 +72,16 @@ body {
 .temporaly {
   height: 1500px;
   width: 450px;
+}
+
+.plum {
   background-color: plum;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
 }
