@@ -1,0 +1,76 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.list-unstyled {
+  margin: 0;
+}
+
+.blue {
+  border: 1px solid blue;
+}
+
+.container-max-width {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.hover-orange:hover {
+  color: #ec5242;
+  text-decoration: none;
+}
+
+.dark-color {
+  color: #272a31;
+}
+
+/****************************** HEADER ***********************************/
+
+/* HAMBURGUER */
+
+.hamburguer-icon {
+  position: fixed;
+  font-size: 2.5em;
+}
+
+/* FIRST NAV */
+
+.first-nav {
+  background-color: #272a31;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.links-first-nav {
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 0.9em;
+}
+
+/* MAIN NAV */
+
+.main-nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.main-nav-item {
+  font-size: 0.9em;
+  margin-left: 30px;
+  margin-right: 30px;
+  white-space: nowrap;
+}
+
+.tickets-button {
+  border: 3px solid #ec5242;
+}
+
+.main-logo {
+  height: 45px;
+}
+.temporaly {
+  height: 1500px;
+  width: 450px;
+  background-color: plum;
+}

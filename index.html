@@ -14,6 +14,7 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="assets/css/stylesheet.css" />
     <script
       src="https://kit.fontawesome.com/3a9b044484.js"
       crossorigin="anonymous"
@@ -21,9 +22,88 @@
     <title>Convention 2021</title>
   </head>
   <body>
-    <header></header>
+    <header class="container-fluid">
+      <!------ FIRST BLACK NAVBAR -->
+      <nav class="d-block d-md-none">
+        <div class="hamburguer-icon"><a href="#" class="dark-color hover-orange"><i class="fas fa-bars"></a></i></div>
+      </nav>
+      <nav class="row justify-content-center d-none d-md-flex first-nav">
+        <div class="col-12 d-flex justify-content-end container-max-width">
+          <ul class="list-unstyled d-flex">
+            <li>
+              <a href="#" class="links-first-nav hover-orange"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="links-first-nav hover-orange"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="links-first-nav hover-orange">English</a>
+            </li>
+            <li>
+              <a href="#" class="links-first-nav hover-orange">你好你好吗</a>
+            </li>
+            <li>
+              <a href="#" class="links-first-nav hover-orange">その良い</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!------ MAIN NAVBAR -->
+      <nav class="row justify-content-center d-none d-md-flex main-nav">
+        <div class="col-12">
+          <div class="row container-max-width">
+            <div class="col img-container d-flex">
+              <a href="index.html"
+                ><img
+                  src="assets/images/logos/DICE-PROJECT.png"
+                  alt="logo"
+                  class="main-logo"
+              /></a>
+            </div>
+            <div class="items col-6 d-flex justify-content-end">
+              <ul class="list-unstyled d-flex align-items-center">
+                <li>
+                  <a href="#" class="main-nav-item dark-color hover-orange"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="main-nav-item dark-color hover-orange"
+                    >Buy a game</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="main-nav-item dark-color hover-orange"
+                    >Blog</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="main-nav-item dark-color hover-orange"
+                    >Reviews</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col button-nav-container d-flex justify-content-end">
+              <button
+                type="button"
+                class="btn tickets-button dark-color hover-orange"
+              >
+                Buy tickets here!
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
     <!---------------------MAIN---------------------->
-    <main></main>
+    <main>
+      <div class="temporaly"></div>
+    </main>
     <!---------------------FOOTER---------------------->
     <footer></footer>
   </body>
