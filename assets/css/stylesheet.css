@@ -144,6 +144,11 @@ main {
 
 /********************************** MAIN PROGRAM ************************/
 
+.main-program {
+  background-color: black;
+  padding: 45px 0px;
+}
+
 .container-programs {
   margin: 15px;
   display: grid;
@@ -157,6 +162,30 @@ main {
   height: 125px;
   margin: 10px 10px 10px 0;
 }
+
+.partners {
+  background-color: #272a31;
+}
+
+.partners-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.img-partner-cont {
+  margin: 15px 35px;
+  width: 120px;
+}
+/********************************** FOOTER ************************/
+.container-footer {
+  flex-wrap: wrap;
+}
+
+.logo-footer {
+  width: 220px;
+}
+
 .yellow {
   background-color: yellow;
   height: 155px;
@@ -180,9 +209,4 @@ main {
 .purple {
   background-color: purple;
   height: 155px;
-}
-
-.main-program {
-  background-color: black;
-  padding: 45px 0px;
 }
