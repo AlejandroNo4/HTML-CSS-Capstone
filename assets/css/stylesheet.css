@@ -145,7 +145,8 @@ main {
 /********************************** MAIN PROGRAM ************************/
 
 .main-program {
-  background-color: black;
+  background: #272a31 url(../images/logos/THE-MEPPLE-CON.png);
+  background-size: 15px;
   padding: 45px 0px;
 }
 
@@ -155,6 +156,10 @@ main {
   gap: 5px;
   width: 1100px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.program-title {
+  margin: 10px 0;
 }
 
 .speaker-img {
@@ -188,6 +193,7 @@ main {
 
 .yellow {
   background-color: yellow;
+  padding: 25px;
   height: 155px;
 }
 
