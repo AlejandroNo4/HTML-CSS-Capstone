@@ -24,6 +24,9 @@ main {
   color: #272a31;
 }
 
+.small-font {
+  font-size: 12px;
+}
 .blue {
   border: 1px solid blue;
 }
@@ -139,40 +142,47 @@ main {
   margin-right: 15px;
 }
 
-.main-big-logo {
-  background-color: rgba(236, 82, 66, 0.2);
+/********************************** MAIN PROGRAM ************************/
+
+.container-programs {
+  margin: 15px;
+  display: grid;
+  gap: 5px;
+  width: 1100px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
-.left-main {
-  background-color: rgba(39, 42, 49, 0.8);
-  min-height: 100px;
+.speaker-img {
+  width: 125px;
+  height: 125px;
+  margin: 10px 10px 10px 0;
 }
-
-.right-main {
-  background-color: rgba(72, 75, 80, 0.8);
-  min-height: 100px;
-}
-
-.headeer {
-  position: absolute;
-  right: 35%;
-  background-color: rgba(39, 42, 49, 0.2);
-  top: 10%;
-}
-
-.temporaly {
-  height: 1500px;
-  width: 450px;
-}
-
-.plum {
-  background-color: plum;
-}
-
 .yellow {
   background-color: yellow;
+  height: 155px;
 }
 
 .red {
   background-color: red;
+
+  height: 155px;
+}
+.plum {
+  background-color: plum;
+  height: 155px;
+}
+
+.green {
+  background-color: green;
+  height: 155px;
+}
+
+.purple {
+  background-color: purple;
+  height: 155px;
+}
+
+.main-program {
+  background-color: black;
+  padding: 45px 0px;
 }
