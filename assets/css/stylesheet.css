@@ -12,6 +12,10 @@ main {
   margin: 0;
 }
 
+.white {
+  color: white;
+}
+
 .blue {
   border: 1px solid blue;
 }
@@ -35,7 +39,7 @@ main {
 /* HAMBURGUER */
 
 .hamburguer-icon {
-  position: fixed;
+  padding-left: 7.5px;
   font-size: 2.5em;
   z-index: 10000;
 }
@@ -87,8 +91,8 @@ main {
   height: 550px;
 }
 
-.top-content-cont {
-  padding: 35px 15px;
+.main-top-logo-container {
+  margin-top: 15px;
 }
 
 .main-title {
@@ -98,14 +102,18 @@ main {
   font-weight: 900;
 }
 
-.main-logo-container {
-  margin-top: 0 25px;
-  background-color: rgba(39, 42, 49, 0.3);
+.main-big-logo {
+  background-color: rgba(236, 82, 66, 0.2);
 }
 
-.main-big-logo {
-  background-color: rosybrown;
-  margin: 15px;
+.left-main {
+  background-color: rgba(39, 42, 49, 0.8);
+  min-height: 100px;
+}
+
+.right-main {
+  background-color: rgba(72, 75, 80, 0.8);
+  min-height: 100px;
 }
 
 .headeer {
