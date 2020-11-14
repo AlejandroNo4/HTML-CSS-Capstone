@@ -145,7 +145,7 @@ main {
 /********************************** MAIN PROGRAM ************************/
 
 .main-program {
-  background: #272a31 url(../images/logos/THE-MEPPLE-CON.png);
+  background: #272a31;
   background-size: 15px;
   padding: 45px 0px;
 }
@@ -192,7 +192,7 @@ main {
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: rgba(111, 111, 111, 0.2);
   padding: 25px;
   height: 155px;
 }
