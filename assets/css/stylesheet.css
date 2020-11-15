@@ -96,7 +96,7 @@ main {
 
 .main-img-backgr {
   position: relative;
-  background: url(../images/background-img/BACKGROUND-DARK-SOULS.jpg) center
+  background: url(../images/background-img/BACKGROUND-DARK-SOULS-BN.jpg) center
     center / cover no-repeat;
   box-shadow: inset 0 2px 5px -5px black;
   height: 768px;
@@ -183,12 +183,65 @@ main {
   width: 120px;
 }
 /********************************** FOOTER ************************/
+.footer {
+  margin-top: 25px;
+  padding: 35px 0;
+}
+
 .container-footer {
   flex-wrap: wrap;
 }
 
 .logo-footer {
   width: 220px;
+}
+
+.footer-dark {
+  background-color: #272a31;
+  color: white;
+}
+
+/********************************** ABOUT-US ************************/
+
+.about-us-info {
+  box-shadow: inset 0 2px 5px -5px black;
+  background-color: rgb(243, 243, 243);
+}
+
+.main-title-about-us {
+  padding: 55px 15px;
+}
+
+.cite-about-us {
+  background-color: white;
+  margin: 15px;
+  padding: 65px;
+  border: 1px solid rgba(111, 111, 111, 0.2);
+  text-align: center;
+}
+
+.contact-about-us {
+  text-align: center;
+  padding: 65px 0;
+}
+
+.logo-menaning {
+  border-bottom: 1px solid rgba(111, 111, 111, 0.3);
+  border-top: 1px solid rgba(111, 111, 111, 0.3);
+  padding: 45px 0;
+}
+
+.logo-contest {
+  border-bottom: 1px solid rgba(111, 111, 111, 0.6);
+}
+
+.contest-text-container {
+  padding: 65px;
+  text-align: center;
+}
+
+.img-about-container {
+  margin-bottom: 5px;
 }
 
 .yellow {
@@ -199,7 +252,6 @@ main {
 
 .red {
   background-color: red;
-
   height: 155px;
 }
 .plum {
