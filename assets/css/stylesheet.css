@@ -149,6 +149,19 @@ main {
 
 /********************************** MAIN PROGRAM ************************/
 
+.section-title-container {
+  padding: 25px;
+}
+
+.section-title {
+  font-size: 25px;
+}
+
+.orange-title-line {
+  border-bottom: 3px solid #ec5242;
+  width: 45px;
+}
+
 .main-program {
   background: #272a31;
   background-size: 15px;
@@ -189,7 +202,6 @@ main {
 }
 /********************************** FOOTER ************************/
 .footer {
-  margin-top: 25px;
   padding: 35px 0;
 }
 
@@ -220,7 +232,7 @@ main {
 .cite-about-us {
   background-color: white;
   margin: 15px;
-  padding: 65px;
+  padding: 45px 65px 65px 65px;
   border: 1px solid rgba(111, 111, 111, 0.2);
   text-align: center;
 }
@@ -233,20 +245,48 @@ main {
 .logo-menaning {
   border-bottom: 1px solid rgba(111, 111, 111, 0.3);
   border-top: 1px solid rgba(111, 111, 111, 0.3);
-  padding: 45px 0;
-}
-
-.logo-contest {
-  border-bottom: 1px solid rgba(111, 111, 111, 0.6);
+  padding: 45px 0 65px 0;
 }
 
 .contest-text-container {
-  padding: 65px;
+  padding: 25px 65px 65px 65px;
   text-align: center;
 }
 
+.past-years {
+  padding: 25px 0 65px 0;
+  background-color: rgb(243, 243, 243);
+}
+
+.previous-years-container {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
 .img-about-container {
-  margin-bottom: 5px;
+  height: 0;
+  padding-top: 50%;
+  position: relative;
+  text-align: center;
+}
+
+.year-center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 900;
+  font-size: 3em;
+  background-color: rgba(236, 82, 66, 0.3);
+}
+
+.year-center:hover {
+  color: #272a31;
+  text-decoration: none;
 }
 
 /********************************** TICKETS ************************/
@@ -256,7 +296,7 @@ main {
 }
 
 .tickets-table {
-  margin: 65px 15px;
+  margin: 25px 15px;
 }
 
 .form-tournaments {
