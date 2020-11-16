@@ -36,6 +36,11 @@ main {
   margin: 0 auto;
 }
 
+.margin-15 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 .hover-orange:hover {
   color: #ec5242;
   text-decoration: none;
@@ -242,6 +247,12 @@ main {
 
 .img-about-container {
   margin-bottom: 5px;
+}
+
+/********************************** TICKETS ************************/
+
+.tickets-table {
+  margin: 65px 15px;
 }
 
 .yellow {
