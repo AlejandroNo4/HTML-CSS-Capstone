@@ -109,7 +109,6 @@
           <tr>
             <th>Date</th>
             <th >Speaker of the day</th>
-            <th >Main Tournament</th>
             <th >Tickets (max 10)</th>
             <th >proceed to checkout</th>
           </thead>
@@ -117,57 +116,100 @@
           <tr>
             <td>February 15</td>
             <td>Isaac Childres</td>
-            <td>Terraforming Mars</td>
-            <td class="d-flex justify-content-center"><input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1"></td>
-            <td><input type="submit" value="Checkout!" ></td>
+            <td  class="text-center"><input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1"></td>
+            <td class="text-center"><input type="submit" value="Checkout!" ></td>
           </tr>
           <tr>
             <td>February 15</td>
             <td>Isaac Childres</td>
-            <td>Terraforming Mars</td>
-            <td class="d-flex justify-content-center"><input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1"></td>
-            <td><input type="submit" value="Checkout!" ></td>
+            <td  class="text-center"><input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1"></td>
+            <td class="text-center"><input type="submit" value="Checkout!" ></td>
           </tr>
           <tr>
             <td>February 15</td>
             <td>Isaac Childres</td>
-            <td>Terraforming Mars</td>
-            <td class="d-flex justify-content-center"><input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1"></td>
-            <td><input type="submit" value="Checkout!" ></td>
+            <td  class="text-center"><input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1"></td>
+            <td class="text-center"><input type="submit" value="Checkout!" ></td>
           </tr>
           <tr>
             <td>February 15</td>
             <td>Isaac Childres</td>
-            <td>Terraforming Mars</td>
-            <td class="d-flex justify-content-center"><input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1"></td>
-            <td><input type="submit" value="Checkout!" ></td>
+            <td  class="text-center"><input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1"></td>
+            <td class="text-center"><input type="submit" value="Checkout!" ></td>
           </tr>
           <tr>
             <td>February 15</td>
             <td>Isaac Childres</td>
-            <td>Terraforming Mars</td>
-            <td class="d-flex justify-content-center"><input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1"></td>
-            <td><input type="submit" value="Checkout!" ></td>
+            <td  class="text-center"><input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1"></td>
+            <td class="text-center"><input type="submit" value="Checkout!" ></td>
           </tr>
           <tr>
             <td>February 15</td>
             <td>Isaac Childres</td>
-            <td>Terraforming Mars</td>
-            <td class="d-flex justify-content-center"><input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1"></td>
-            <td><input type="submit" value="Checkout!" ></td>
+            <td  class="text-center"><input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1"></td>
+            <td class="text-center"><input type="submit" value="Checkout!" ></td>
           </tr>
         </table>
       </section>
-      <ul>
+      <section class="tournaments  container-max-width">
+        <form class="form-tournaments">
+          <div class="row row-cols-1 row-cols-md-2 d-flex align-items-end">
+            <div class="col form-group">
+              <label for="tournament-name">Name</label>
+              <input type="text" class="form-control" id="tournament-name" placeholder="First name">
+            </div>
+            <div class="col form-group">
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-2 d-flex align-items-end ">
+            <div class="col form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+            <div class="col form-group">
+              <label for="telephone">Telephone</label>
+              <input type="tel" class="form-control" id="telephone" placeholder="Telephone">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="team-mates">Team</label>
+          <input class="form-control" type="text" id="team-mates" placeholder="Team mates names (separated by a comma)">
+          </div>
+          <div class="row">
+          <div class="col form-group">
+            <label for="game-board">Game Board</label>
+            <select class="form-control" id="game-board">
+              <option>Terraforming Mars</option>
+              <option>Star Wars Rebellion</option>
+              <option>Pandemic</option>
+              <option>Brass Lancashire</option>
+              <option>Scythe</option>
+              <option>Gloomheaven</option>
+              <option>Dark Souls</option>
+            </select>
+          </div>
+          <div class="col form-group">
+            <label for="type-inscription-game-board">Type</label>
+            <select class="form-control" id="type-inscription-game-board">
+              <option>Solo</option>
+              <option>Team (Vs time)</option>
+            </select>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-tournament btn-block">Submit</button>
+        </form>
+      <ul class="da-rules">
+        <li>The teams play against time, the team that defeats the game in the shortest time will be the winner. In case the team loses, it will leave the competition.</li>
         <li>When you sign up for yourself or your team in a tournament, entry to the convention will be free every day until the closing ceremony.
         </li>
-        <li>The number of people per team is determined by the maximum number of players per board game. (eg. Terraforming Mars - 5 people, Survive - 4 people)
+        <li>The number of people per team is determined by the maximum number of players per board game. (eg. Gloomheaven - 4 people, Pandemic - 4 people)
         </li>
         <li>Every tournament starts at 10:00 A.M. The second round will start at 3:00 P.M. And the finalists will be decided in the last round, at 8:00 P.M.</li>
         <li>The finalists of every game will compete on the final day at 4:00 P.M. </li>
-        <li>For more details, please read these <a href="#" class="orange hover-orange">guidelines</a>  carefully</li>
+        <li>For more details about fees and prizes, please read these <a href="#" class="orange hover-orange">guidelines</a>  carefully</li>
       </ul>
-      
+      </section>
     </main>
     <!---------------------FOOTER---------------------->
     <footer></footer>
