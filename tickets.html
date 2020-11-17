@@ -25,7 +25,11 @@
     <header class="container-fluid">
       <!------ FIRST BLACK NAVBAR -->
       <nav class="d-block d-md-none">
-        <div class="hamburguer-icon"><a href="#" class="dark-color hover-orange"><i class="fas fa-bars"></a></i></div>
+        <div class="hamburguer-icon">
+          <a href="#" class="dark-color hover-orange"
+            ><i class="fas fa-bars"></i
+          ></a>
+        </div>
       </nav>
       <nav class="row justify-content-center d-none d-md-flex first-nav">
         <div class="col-12 d-flex justify-content-end container-max-width">
@@ -67,22 +71,33 @@
             <div class="items col-6 d-flex justify-content-end">
               <ul class="list-unstyled d-flex align-items-center">
                 <li>
-                  <a href="about-us.html" class="main-nav-item dark-color hover-orange"
+                  <a
+                    href="about-us.html"
+                    class="main-nav-item dark-color hover-orange"
                     >About</a
                   >
                 </li>
                 <li>
-                  <a href="https://boardgamegeek.com/geekmarket?pageid=1" target="blank" class="main-nav-item dark-color hover-orange"
+                  <a
+                    href="https://boardgamegeek.com/geekmarket?pageid=1"
+                    target="blank"
+                    class="main-nav-item dark-color hover-orange"
                     >Buy a game</a
                   >
                 </li>
                 <li>
-                  <a href="https://boardgamegeek.com/blogs" class="main-nav-item dark-color hover-orange" target="blank"
+                  <a
+                    href="https://boardgamegeek.com/blogs"
+                    class="main-nav-item dark-color hover-orange"
+                    target="blank"
                     >Blogs</a
                   >
                 </li>
                 <li>
-                  <a href="https://boardgamegeek.com/thread/browse/boardgame/0?sort=recent&forumname=reviews" target="blank" class="main-nav-item dark-color hover-orange"
+                  <a
+                    href="https://boardgamegeek.com/thread/browse/boardgame/0?sort=recent&forumname=reviews"
+                    target="blank"
+                    class="main-nav-item dark-color hover-orange"
                     >Reviews</a
                   >
                 </li>
@@ -90,11 +105,11 @@
             </div>
             <div class="col button-nav-container d-flex justify-content-end">
               <a
-              href="tickets.html"
+                href="tickets.html"
                 class="btn tickets-button dark-color hover-orange"
               >
                 Buy tickets here!
-            </a>
+              </a>
             </div>
           </div>
         </div>
@@ -102,148 +117,257 @@
     </header>
     <!---------------------MAIN---------------------->
     <main>
-      
       <section class="tickets">
-
-        <div class="section-title-container d-flex justify-content-center flex-column align-items-center">
+        <div
+          class="section-title-container d-flex justify-content-center flex-column align-items-center"
+        >
           <h4 class="section-title dark-color">Tickets</h4>
           <div class="orange-title-line"></div>
         </div>
 
-        <div class="container-max-width d-flex justify-content-center  ">
-        <table class="tickets-table table w-75 table-bordered table-hover">
-          <thead>
-          <tr>
-            <th>Date</th>
-            <th >Speaker of the day</th>
-            <th >Tickets (max 10)</th>
-            <th >proceed to checkout</th>
-          </thead>
-          </tr>
-          <tr>
-            <td>February 15</td>
-            <td>Isaac Childres</td>
-            <td  class="text-center"><input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1"></td>
-            <td class="text-center"><input type="submit" value="Buy!" ></td>
-          </tr>
-          <tr>
-            <td>February 16</td>
-            <td>Jacob Fryxelius</td>
-            <td  class="text-center"><input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1"></td>
-            <td class="text-center"><input type="submit" value="Buy!" ></td>
-          </tr>
-          <tr>
-            <td>February 17</td>
-            <td>Michael Kiesling</td>
-            <td  class="text-center"><input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1"></td>
-            <td class="text-center"><input type="submit" value="Buy!" ></td>
-          </tr>
-          <tr>
-            <td>February 18</td>
-            <td>Rob Daviau</td>
-            <td  class="text-center"><input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1"></td>
-            <td class="text-center"><input type="submit" value="Buy!" ></td>
-          </tr>
-          <tr>
-            <td>February 19</td>
-            <td>Tom Vasel</td>
-            <td  class="text-center"><input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1"></td>
-            <td class="text-center"><input type="submit" value="Buy!" ></td>
-          </tr>
-          <tr>
-            <td>February 20</td>
-            <td>GB Finals</td>
-            <td  class="text-center"><input type="number" id="quantity" name="quantity" min="1" max="10" step="1" value="1"></td>
-            <td class="text-center"><input type="submit" value="Buy!" ></td>
-          </tr>
-        </table>
+        <div class="container-max-width d-flex justify-content-center">
+          <table class="tickets-table table w-75 table-bordered table-hover">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Speaker of the day</th>
+                <th>Tickets (max 10)</th>
+                <th>proceed to checkout</th>
+              </tr>
+            </thead>
+
+            <tr>
+              <td>February 15</td>
+              <td>Isaac Childres</td>
+              <td class="text-center">
+                <input
+                  type="number"
+                  id="quantity"
+                  class="quantity"
+                  name="quantity"
+                  min="1"
+                  max="10"
+                  step="1"
+                  value="1"
+                />
+              </td>
+              <td class="text-center"><input type="submit" value="Buy!" /></td>
+            </tr>
+            <tr>
+              <td>February 16</td>
+              <td>Jacob Fryxelius</td>
+              <td class="text-center">
+                <input
+                  type="number"
+                  id="quantity2"
+                  class="quantity"
+                  name="quantity"
+                  min="1"
+                  max="10"
+                  step="1"
+                  value="1"
+                />
+              </td>
+              <td class="text-center"><input type="submit" value="Buy!" /></td>
+            </tr>
+            <tr>
+              <td>February 17</td>
+              <td>Michael Kiesling</td>
+              <td class="text-center">
+                <input
+                  type="number"
+                  id="quantity3"
+                  class="quantity"
+                  name="quantity"
+                  min="1"
+                  max="10"
+                  step="1"
+                  value="1"
+                />
+              </td>
+              <td class="text-center"><input type="submit" value="Buy!" /></td>
+            </tr>
+            <tr>
+              <td>February 18</td>
+              <td>Rob Daviau</td>
+              <td class="text-center">
+                <input
+                  type="number"
+                  id="quantity4"
+                  class="quantity"
+                  name="quantity"
+                  min="1"
+                  max="10"
+                  step="1"
+                  value="1"
+                />
+              </td>
+              <td class="text-center"><input type="submit" value="Buy!" /></td>
+            </tr>
+            <tr>
+              <td>February 19</td>
+              <td>Tom Vasel</td>
+              <td class="text-center">
+                <input
+                  type="number"
+                  id="quantity5"
+                  class="quantity"
+                  name="quantity"
+                  min="1"
+                  max="10"
+                  step="1"
+                  value="1"
+                />
+              </td>
+              <td class="text-center"><input type="submit" value="Buy!" /></td>
+            </tr>
+            <tr>
+              <td>February 20</td>
+              <td>GB Finals</td>
+              <td class="text-center">
+                <input
+                  type="number"
+                  id="quantity7"
+                  class="quantity"
+                  name="quantity"
+                  min="1"
+                  max="10"
+                  step="1"
+                  value="1"
+                />
+              </td>
+              <td class="text-center"><input type="submit" value="Buy!" /></td>
+            </tr>
+          </table>
+        </div>
       </section>
       <!--------------------- INSCRIPTIONS FORM ---------------------->
-      <div class="section-title-container d-flex justify-content-center flex-column align-items-center">
+      <div
+        class="section-title-container d-flex justify-content-center flex-column align-items-center"
+      >
         <h4 class="section-title dark-color">Tournaments Inscription</h4>
         <div class="orange-title-line"></div>
       </div>
-      <section class="tournaments  container-max-width">
+      <section class="tournaments container-max-width">
         <form class="form-tournaments">
           <div class="row row-cols-1 row-cols-md-2 d-flex align-items-end">
             <div class="col form-group">
               <label for="tournament-name">Name</label>
-              <input type="text" class="form-control" id="tournament-name" placeholder="First name">
+              <input
+                type="text"
+                class="form-control"
+                id="tournament-name"
+                placeholder="First name"
+              />
             </div>
             <div class="col form-group">
-              <input type="text" class="form-control" placeholder="Last name">
+              <input type="text" class="form-control" placeholder="Last name" />
             </div>
           </div>
-          <div class="row row-cols-1 row-cols-md-2 d-flex align-items-end ">
+          <div class="row row-cols-1 row-cols-md-2 d-flex align-items-end">
             <div class="col form-group">
               <label for="email">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="Email">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Email"
+              />
             </div>
             <div class="col form-group">
               <label for="telephone">Telephone</label>
-              <input type="tel" class="form-control" id="telephone" placeholder="Telephone">
+              <input
+                type="tel"
+                class="form-control"
+                id="telephone"
+                placeholder="Telephone"
+              />
             </div>
           </div>
           <div class="form-group">
             <label for="team-mates">Team</label>
-          <input class="form-control" type="text" id="team-mates" placeholder="Team mates names (separated by a comma)">
+            <input
+              class="form-control"
+              type="text"
+              id="team-mates"
+              placeholder="Team mates names (separated by a comma)"
+            />
           </div>
           <div class="row">
-          <div class="col form-group">
-            <label for="game-board">Game Board</label>
-            <select class="form-control" id="game-board">
-              <option>Terraforming Mars</option>
-              <option>Star Wars Rebellion</option>
-              <option>Pandemic</option>
-              <option>Brass Lancashire</option>
-              <option>Scythe</option>
-              <option>Gloomheaven</option>
-              <option>Dark Souls</option>
-            </select>
+            <div class="col form-group">
+              <label for="game-board">Game Board</label>
+              <select class="form-control" id="game-board">
+                <option>Terraforming Mars</option>
+                <option>Star Wars Rebellion</option>
+                <option>Pandemic</option>
+                <option>Brass Lancashire</option>
+                <option>Scythe</option>
+                <option>Gloomheaven</option>
+                <option>Dark Souls</option>
+              </select>
+            </div>
+            <div class="col form-group">
+              <label for="type-inscription-game-board">Type</label>
+              <select class="form-control" id="type-inscription-game-board">
+                <option>Solo</option>
+                <option>Team (Vs time)</option>
+              </select>
+            </div>
           </div>
-          <div class="col form-group">
-            <label for="type-inscription-game-board">Type</label>
-            <select class="form-control" id="type-inscription-game-board">
-              <option>Solo</option>
-              <option>Team (Vs time)</option>
-            </select>
-          </div>
-        </div>
-        <button type="submit" class="btn btn-tournament btn-block">Submit</button>
+          <button type="submit" class="btn btn-tournament btn-block">
+            Submit
+          </button>
         </form>
-      <ul class="da-rules">
-        <li>The teams play against time, the team that defeats the game in the shortest time will be the winner. In case the team loses, it will leave the competition.</li>
-        <li>When you sign up for yourself or your team in a tournament, entry to the convention will be free every day until the closing ceremony.
-        </li>
-        <li>The number of people per team is determined by the maximum number of players per board game. (eg. Gloomheaven - 4 people, Pandemic - 4 people)
-        </li>
-        <li>Every tournament starts at 10:00 A.M. The second round will start at 3:00 P.M. And the finalists will be decided in the last round, at 8:00 P.M.</li>
-        <li>The finalists of every game will compete on the final day at 4:00 P.M. </li>
-        <li>For more details about fees and prizes, please read these <a href="#" class="orange hover-orange">guidelines</a>  carefully</li>
-      </ul>
-    </div>
+        <ul class="da-rules">
+          <li>
+            The teams play against time, the team that defeats the game in the
+            shortest time will be the winner. In case the team loses, it will
+            leave the competition.
+          </li>
+          <li>
+            When you sign up for yourself or your team in a tournament, entry to
+            the convention will be free every day until the closing ceremony.
+          </li>
+          <li>
+            The number of people per team is determined by the maximum number of
+            players per board game. (eg. Gloomheaven - 4 people, Pandemic - 4
+            people)
+          </li>
+          <li>
+            Every tournament starts at 10:00 A.M. The second round will start at
+            3:00 P.M. And the finalists will be decided in the last round, at
+            8:00 P.M.
+          </li>
+          <li>
+            The finalists of every game will compete on the final day at 4:00
+            P.M.
+          </li>
+          <li>
+            For more details about fees and prizes, please read these
+            <a href="#" class="orange hover-orange">guidelines</a> carefully
+          </li>
+        </ul>
       </section>
     </main>
     <!---------------------FOOTER---------------------->
-    <footer class=" footer container-fluid footer-dark">
-      
-      <section class="row row-cols-1 row-cols-md-2 d-flex justify-content-center container-max-width container-footer align-items-center">
+    <footer class="footer container-fluid footer-dark">
+      <section
+        class="row row-cols-1 row-cols-md-2 d-flex justify-content-center container-max-width container-footer align-items-center"
+      >
         <div class="col col-md-4 d-flex justify-content-center">
-        <img src="assets/images/logos/DICE-PROJECT-WHITE-SHADOW.png" alt="Logo footer" class="logo-footer">
-      </div>
-        <div class="col col-md-8 ">
-          <p class="small-font"><strong>2020 The Dice Project All Rights Reserved</strong> <br>
-          我们烧毁了高速公路的天际线
-          在飓风开始后的回归中
-          你小时候
-          你小时候
-          有时候我闭上眼睛
-          看看你住的地方
-          你小时候
-          他们说魔鬼的水不是那么甜
-          你现在不用喝酒
-          但是你可以蘸脚
-          每隔一段时间</p>
+          <img
+            src="assets/images/logos/DICE-PROJECT-WHITE-SHADOW.png"
+            alt="Logo footer"
+            class="logo-footer"
+          />
+        </div>
+        <div class="col col-md-8">
+          <p class="small-font">
+            <strong>2020 The Dice Project All Rights Reserved</strong> <br />
+            我们烧毁了高速公路的天际线 在飓风开始后的回归中 你小时候 你小时候
+            有时候我闭上眼睛 看看你住的地方 你小时候 他们说魔鬼的水不是那么甜
+            你现在不用喝酒 但是你可以蘸脚 每隔一段时间
+          </p>
         </div>
       </section>
     </footer>

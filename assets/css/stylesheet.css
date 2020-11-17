@@ -22,6 +22,7 @@ body {
 .small-font {
   font-size: 12px;
 }
+
 .blue {
   border: 1px solid blue;
 }
@@ -162,7 +163,7 @@ body {
 .main-program {
   background: #272a31;
   background-size: 15px;
-  padding: 45px 0px;
+  padding: 45px 0;
 }
 
 .container-programs {
@@ -224,7 +225,9 @@ body {
   margin: 15px 35px;
   width: 120px;
 }
+
 /********************************** FOOTER ************************/
+
 .footer {
   padding: 35px 0;
 }
@@ -345,30 +348,11 @@ body {
   margin: 55px 15px;
 }
 
-#quantity {
+.quantity {
   max-width: 45px;
 }
 
 .program-item {
   background-color: rgba(111, 111, 111, 0.2);
   padding: 25px 30px 25px 30px;
-}
-
-.red {
-  background-color: red;
-  height: 155px;
-}
-.plum {
-  background-color: plum;
-  height: 155px;
-}
-
-.green {
-  background-color: green;
-  height: 155px;
-}
-
-.purple {
-  background-color: purple;
-  height: 155px;
 }
