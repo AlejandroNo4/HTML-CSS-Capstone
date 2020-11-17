@@ -15,7 +15,7 @@ The goal was to build a page based on a website conference, following these inst
 
 Besides the style, it was made to apply all the knowledge and techniques acquired during the past projects, which are mentioned below.
 
-Here is the link to the original page https://creativecommons.org/licenses/by-nc/4.0/
+Here is the link to the original page https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
 The Author of this page is [Cindy Shin](https://www.behance.net/adagio07)
 
 ## Built With
