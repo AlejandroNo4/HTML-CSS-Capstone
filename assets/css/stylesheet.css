@@ -51,7 +51,6 @@ td {
 /* HAMBURGUER */
 
 .hamburguer-icon {
-  padding-left: 7.5px;
   font-size: 2.5em;
   z-index: 100000;
 }
@@ -76,6 +75,7 @@ td {
 .main-nav {
   padding-top: 10px;
   padding-bottom: 10px;
+  border-bottom: 1px solid rgba(111, 111, 111, 0.2);
 }
 
 .main-nav-item {
@@ -96,8 +96,7 @@ td {
 /********************************** MAIN ************************/
 
 .main-top-section {
-  background:
-    url(../images/background-img/BACKGROUND-DARK-SOULS.jpg) center
+  background: url(../images/background-img/BACKGROUND-DARK-SOULS.jpg) center
     center / cover no-repeat;
 }
 
@@ -258,7 +257,6 @@ td {
 /********************************** ABOUT-US ************************/
 
 .about-us-info {
-  box-shadow: inset 0 2px 5px -5px black;
   background-color: rgb(243, 243, 243);
 }
 
@@ -277,13 +275,13 @@ td {
 
 .contact-about-us {
   text-align: center;
-  padding: 65px 0;
+  padding: 65px 15px;
 }
 
 .logo-menaning {
   border-bottom: 1px solid rgba(111, 111, 111, 0.3);
   border-top: 1px solid rgba(111, 111, 111, 0.3);
-  padding: 45px 0 65px 0;
+  padding: 45px 15px 65px 15px;
 }
 
 .contest-text-container {
@@ -303,9 +301,8 @@ td {
 }
 
 .img-about-container {
-  background:
-    url(../images/background-img/playing.jpg)
-    center center / cover no-repeat;
+  background: url(../images/background-img/playing.jpg) center center / cover
+    no-repeat;
   height: 0;
   padding-top: 50%;
   position: relative;
@@ -313,8 +310,7 @@ td {
 }
 
 .img-about-container-2 {
-  background:
-    url(../images/background-img/Terraforming-Mars-6-768x576.jpg)
+  background: url(../images/background-img/Terraforming-Mars-6-768x576.jpg)
     center center / cover no-repeat;
   height: 0;
   padding-top: 50%;
@@ -341,10 +337,6 @@ td {
 }
 
 /********************************** TICKETS ************************/
-
-.tickets {
-  box-shadow: inset 0 2px 5px -5px black;
-}
 
 .tickets-table {
   width: 100%;
@@ -380,7 +372,7 @@ td {
   font-size: 0.8em;
 }
 
-.tournaments{
+.tournaments {
   padding: 0 15px;
 }
 

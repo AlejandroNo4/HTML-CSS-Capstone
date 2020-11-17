@@ -24,13 +24,7 @@
   <body>
     <header class="container-fluid">
       <!------ FIRST BLACK NAVBAR -->
-      <nav class="d-block d-md-none">
-        <div class="hamburguer-icon">
-          <a href="#" class="dark-color hover-orange"
-            ><i class="fas fa-bars"></i
-          ></a>
-        </div>
-      </nav>
+
       <nav class="row justify-content-center d-none d-md-flex first-nav">
         <div class="col-12 d-flex justify-content-end container-max-width">
           <ul class="list-unstyled d-flex">
@@ -117,21 +111,73 @@
     </header>
     <!---------------------MAIN---------------------->
     <main>
-
-      <section class="tickets d-flex container-max-width align-items-center flex-column">
+      <div class="d-block d-md-none">
+        <nav
+          class="navbar navbar-fixed-top navvar-light bg-faded"
+          role="navigation"
+        >
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#collapse-elem"
+          >
+            <i class="fas fa-bars hamburguer-icon"></i>
+          </button>
+          <div id="collapse-elem" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link orange">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="about-us.html" class="nav-link orange">About</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://boardgamegeek.com/geekmarket?pageid=1"
+                  target="blank"
+                  class="nav-link orange"
+                  >Buy a game</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://boardgamegeek.com/blogs"
+                  target="blank"
+                  class="nav-link orange"
+                  >Blogs</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://boardgamegeek.com/thread/browse/boardgame/0?sort=recent&forumname=reviews"
+                  target="blank"
+                  class="nav-link orange"
+                  >Reviews</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <section
+        class="tickets d-flex container-max-width align-items-center flex-column"
+      >
         <div
-          class="section-title-container  d-flex justify-content-center flex-column align-items-center"
+          class="section-title-container d-flex justify-content-center flex-column align-items-center"
         >
           <h4 class="section-title dark-color">Tickets</h4>
           <div class="orange-title-line"></div>
         </div>
 
         <div class="step-ticket d-flex justify-content-center w-50 flex-wrap">
-          <div class="step d-flex align-items-center"><i class="fas fa-square-full"></i> STEP 1</div>
-          <p class="please-select ">Please select your ticket type</p>
+          <div class="step d-flex align-items-center">
+            <i class="fas fa-square-full"></i> STEP 1
+          </div>
+          <p class="please-select">Please select your ticket type</p>
         </div>
 
-        <div class=" tickets-table">
+        <div class="tickets-table">
           <table class="table w-100 table-bordered table-hover">
             <thead>
               <tr>
@@ -144,50 +190,53 @@
             <tr>
               <td>Simple</td>
               <td class="text-center orange">
-                <label for="simple-one">$5.00</label> <br>
-                <input type="radio" name="ticket" id="simple-one">
+                <label for="simple-one">$5.00</label> <br />
+                <input type="radio" name="ticket" id="simple-one" />
               </td>
               <td class="text-center orange">
-                <label for="simple-two">$9.00</label> <br>
-                <input type="radio" name="ticket" id="simple-two">
+                <label for="simple-two">$9.00</label> <br />
+                <input type="radio" name="ticket" id="simple-two" />
               </td>
               <td class="text-center orange">
-                <label for="simple-all">$21.00</label> <br>
-                <input type="radio" name="ticket" id="simple-all">
+                <label for="simple-all">$21.00</label> <br />
+                <input type="radio" name="ticket" id="simple-all" />
               </td>
             </tr>
             <tr>
               <td>VIP</td>
               <td class="text-center orange">
-                <label for="vip-one">$8.00</label> <br>
-                <input type="radio" name="ticket" id="vip-one">
+                <label for="vip-one">$8.00</label> <br />
+                <input type="radio" name="ticket" id="vip-one" />
               </td>
               <td class="text-center orange">
-                <label for="vip-two">$12.00</label> <br>
-                <input type="radio" name="ticket" id="vip-two">
+                <label for="vip-two">$12.00</label> <br />
+                <input type="radio" name="ticket" id="vip-two" />
               </td>
               <td class="text-center orange">
-                <label for="vip-all">$35.00</label> <br>
-                <input type="radio" name="ticket" id="vip-all">
+                <label for="vip-all">$35.00</label> <br />
+                <input type="radio" name="ticket" id="vip-all" />
               </td>
             </tr>
             <tr>
               <td>GOLD</td>
               <td class="text-center orange">
-                <label for="gold-one">$12.00</label> <br>
-                <input type="radio" name="ticket" id="gold-one">
+                <label for="gold-one">$12.00</label> <br />
+                <input type="radio" name="ticket" id="gold-one" />
               </td>
               <td class="text-center orange">
-                <label for="gold-two">$16.00</label> <br>
-                <input type="radio" name="ticket" id="gold-two">
+                <label for="gold-two">$16.00</label> <br />
+                <input type="radio" name="ticket" id="gold-two" />
               </td>
               <td class="text-center orange">
-                <label for="gold-all">$49.00</label> <br>
-                <input type="radio" name="ticket" id="gold-all">
+                <label for="gold-all">$49.00</label> <br />
+                <input type="radio" name="ticket" id="gold-all" />
               </td>
             </tr>
           </table>
-          <p class="restrictions">To see the details about what does each ticket type include, please click <a href="#" class="orange">here.</a></p>
+          <p class="restrictions">
+            To see the details about what does each ticket type include, please
+            click <a href="#" class="orange">here.</a>
+          </p>
         </div>
       </section>
       <!--------------------- INSCRIPTIONS FORM ---------------------->
@@ -197,15 +246,21 @@
         <h4 class="section-title dark-color">Data & Tournaments Inscription</h4>
         <div class="orange-title-line"></div>
       </div>
-      <section class="tournaments d-flex flex-column align-items-center container-max-width">
+      <section
+        class="tournaments d-flex flex-column align-items-center container-max-width"
+      >
         <div class="step-ticket d-flex justify-content-center w-50 flex-wrap">
-          <div class="step d-flex align-items-center"><i class="fas fa-square-full"></i> STEP 2</div>
-          <p class="please-select ">Please fill out this form to continue</p>
+          <div class="step d-flex align-items-center">
+            <i class="fas fa-square-full"></i> STEP 2
+          </div>
+          <p class="please-select">Please fill out this form to continue</p>
         </div>
         <form class="form-tournaments">
           <div class="row row-cols-1 row-cols-md-2 d-flex align-items-end">
             <div class="col form-group">
-              <label for="tournament-name">Name <span class="orange">*</span></label>
+              <label for="tournament-name"
+                >Name <span class="orange">*</span></label
+              >
               <input
                 type="text"
                 class="form-control"
@@ -228,7 +283,9 @@
               />
             </div>
             <div class="col form-group">
-              <label for="telephone">Telephone <span class="orange">*</span></label>
+              <label for="telephone"
+                >Telephone <span class="orange">*</span></label
+              >
               <input
                 type="tel"
                 class="form-control"
@@ -236,8 +293,8 @@
                 placeholder="Telephone"
               />
             </div>
-            
-          </div><div class="dotted-line w-100"></div>
+          </div>
+          <div class="dotted-line w-100"></div>
           <div class="form-group">
             <label for="team-mates">Team</label>
             <input
@@ -325,5 +382,15 @@
         </div>
       </section>
     </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
