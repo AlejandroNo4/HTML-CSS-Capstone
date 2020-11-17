@@ -117,142 +117,95 @@
     </header>
     <!---------------------MAIN---------------------->
     <main>
-      <section class="tickets">
+
+      <section class="tickets d-flex container-max-width align-items-center flex-column">
         <div
-          class="section-title-container d-flex justify-content-center flex-column align-items-center"
+          class="section-title-container  d-flex justify-content-center flex-column align-items-center"
         >
           <h4 class="section-title dark-color">Tickets</h4>
           <div class="orange-title-line"></div>
         </div>
 
-        <div class="container-max-width d-flex justify-content-center">
-          <table class="tickets-table table w-75 table-bordered table-hover">
+        <div class="step-ticket d-flex justify-content-center w-50 flex-wrap">
+          <div class="step d-flex align-items-center"><i class="fas fa-square-full"></i> STEP 1</div>
+          <p class="please-select ">Please select your ticket type</p>
+        </div>
+
+        <div class=" tickets-table">
+          <table class="table w-100 table-bordered table-hover">
             <thead>
               <tr>
-                <th>Date</th>
-                <th>Speaker of the day</th>
-                <th>Tickets (max 10)</th>
-                <th>proceed to checkout</th>
+                <th>Ticket</th>
+                <th>1 day</th>
+                <th>2 days</th>
+                <th>All Access</th>
               </tr>
             </thead>
-
             <tr>
-              <td>February 15</td>
-              <td>Isaac Childres</td>
-              <td class="text-center">
-                <input
-                  type="number"
-                  id="quantity"
-                  class="quantity"
-                  name="quantity"
-                  min="1"
-                  max="10"
-                  step="1"
-                  value="1"
-                />
+              <td>Simple</td>
+              <td class="text-center orange">
+                <label for="simple-one">$5.00</label> <br>
+                <input type="radio" name="ticket" id="simple-one">
               </td>
-              <td class="text-center"><input type="submit" value="Buy!" /></td>
+              <td class="text-center orange">
+                <label for="simple-two">$9.00</label> <br>
+                <input type="radio" name="ticket" id="simple-two">
+              </td>
+              <td class="text-center orange">
+                <label for="simple-all">$21.00</label> <br>
+                <input type="radio" name="ticket" id="simple-all">
+              </td>
             </tr>
             <tr>
-              <td>February 16</td>
-              <td>Jacob Fryxelius</td>
-              <td class="text-center">
-                <input
-                  type="number"
-                  id="quantity2"
-                  class="quantity"
-                  name="quantity"
-                  min="1"
-                  max="10"
-                  step="1"
-                  value="1"
-                />
+              <td>VIP</td>
+              <td class="text-center orange">
+                <label for="vip-one">$8.00</label> <br>
+                <input type="radio" name="ticket" id="vip-one">
               </td>
-              <td class="text-center"><input type="submit" value="Buy!" /></td>
+              <td class="text-center orange">
+                <label for="vip-two">$12.00</label> <br>
+                <input type="radio" name="ticket" id="vip-two">
+              </td>
+              <td class="text-center orange">
+                <label for="vip-all">$35.00</label> <br>
+                <input type="radio" name="ticket" id="vip-all">
+              </td>
             </tr>
             <tr>
-              <td>February 17</td>
-              <td>Michael Kiesling</td>
-              <td class="text-center">
-                <input
-                  type="number"
-                  id="quantity3"
-                  class="quantity"
-                  name="quantity"
-                  min="1"
-                  max="10"
-                  step="1"
-                  value="1"
-                />
+              <td>GOLD</td>
+              <td class="text-center orange">
+                <label for="gold-one">$12.00</label> <br>
+                <input type="radio" name="ticket" id="gold-one">
               </td>
-              <td class="text-center"><input type="submit" value="Buy!" /></td>
-            </tr>
-            <tr>
-              <td>February 18</td>
-              <td>Rob Daviau</td>
-              <td class="text-center">
-                <input
-                  type="number"
-                  id="quantity4"
-                  class="quantity"
-                  name="quantity"
-                  min="1"
-                  max="10"
-                  step="1"
-                  value="1"
-                />
+              <td class="text-center orange">
+                <label for="gold-two">$16.00</label> <br>
+                <input type="radio" name="ticket" id="gold-two">
               </td>
-              <td class="text-center"><input type="submit" value="Buy!" /></td>
-            </tr>
-            <tr>
-              <td>February 19</td>
-              <td>Tom Vasel</td>
-              <td class="text-center">
-                <input
-                  type="number"
-                  id="quantity5"
-                  class="quantity"
-                  name="quantity"
-                  min="1"
-                  max="10"
-                  step="1"
-                  value="1"
-                />
+              <td class="text-center orange">
+                <label for="gold-all">$49.00</label> <br>
+                <input type="radio" name="ticket" id="gold-all">
               </td>
-              <td class="text-center"><input type="submit" value="Buy!" /></td>
-            </tr>
-            <tr>
-              <td>February 20</td>
-              <td>GB Finals</td>
-              <td class="text-center">
-                <input
-                  type="number"
-                  id="quantity7"
-                  class="quantity"
-                  name="quantity"
-                  min="1"
-                  max="10"
-                  step="1"
-                  value="1"
-                />
-              </td>
-              <td class="text-center"><input type="submit" value="Buy!" /></td>
             </tr>
           </table>
+          <p class="restrictions">To see the details about what does each ticket type include, please click <a href="#" class="orange">here.</a></p>
         </div>
       </section>
       <!--------------------- INSCRIPTIONS FORM ---------------------->
       <div
         class="section-title-container d-flex justify-content-center flex-column align-items-center"
       >
-        <h4 class="section-title dark-color">Tournaments Inscription</h4>
+        <h4 class="section-title dark-color">Data & Tournaments Inscription</h4>
         <div class="orange-title-line"></div>
       </div>
-      <section class="tournaments container-max-width">
+      <section class="tournaments d-flex flex-column align-items-center container-max-width">
+        <div class="step-ticket d-flex justify-content-center w-50 flex-wrap">
+          <div class="step d-flex align-items-center"><i class="fas fa-square-full"></i> STEP 2</div>
+          <p class="please-select ">Please fill out this form to continue</p>
+        </div>
         <form class="form-tournaments">
           <div class="row row-cols-1 row-cols-md-2 d-flex align-items-end">
             <div class="col form-group">
-              <label for="tournament-name">Name</label>
+              <label for="tournament-name">Name <span class="orange">*</span></label>
               <input
                 type="text"
                 class="form-control"
@@ -266,7 +219,7 @@
           </div>
           <div class="row row-cols-1 row-cols-md-2 d-flex align-items-end">
             <div class="col form-group">
-              <label for="email">Email</label>
+              <label for="email">Email <span class="orange">*</span> </label>
               <input
                 type="email"
                 class="form-control"
@@ -275,7 +228,7 @@
               />
             </div>
             <div class="col form-group">
-              <label for="telephone">Telephone</label>
+              <label for="telephone">Telephone <span class="orange">*</span></label>
               <input
                 type="tel"
                 class="form-control"
@@ -283,7 +236,8 @@
                 placeholder="Telephone"
               />
             </div>
-          </div>
+            
+          </div><div class="dotted-line w-100"></div>
           <div class="form-group">
             <label for="team-mates">Team</label>
             <input

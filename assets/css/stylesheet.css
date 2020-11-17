@@ -3,6 +3,10 @@ body {
   min-width: 350px;
 }
 
+td {
+  font-weight: 600;
+}
+
 .list-unstyled {
   margin: 0;
 }
@@ -90,6 +94,12 @@ body {
 }
 
 /********************************** MAIN ************************/
+
+.main-top-section {
+  background:
+    url(../images/background-img/BACKGROUND-DARK-SOULS.jpg) center
+    center / cover no-repeat;
+}
 
 .layer-transparency {
   width: 100%;
@@ -293,6 +303,19 @@ body {
 }
 
 .img-about-container {
+  background:
+    url(../images/background-img/playing.jpg)
+    center center / cover no-repeat;
+  height: 0;
+  padding-top: 50%;
+  position: relative;
+  text-align: center;
+}
+
+.img-about-container-2 {
+  background:
+    url(../images/background-img/Terraforming-Mars-6-768x576.jpg)
+    center center / cover no-repeat;
   height: 0;
   padding-top: 50%;
   position: relative;
@@ -324,18 +347,56 @@ body {
 }
 
 .tickets-table {
-  margin: 25px 15px;
+  width: 100%;
+  margin: 25px 0px;
+  padding: 0 15px;
+}
+
+.step-ticket {
+  border: 2px solid #d3d3d3;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin: 25px 0;
+}
+
+.step {
+  color: red;
+  white-space: nowrap;
+  font-size: 1em;
+}
+
+.fa-square-full {
+  transform: rotate(45deg);
+  font-size: 0.5em;
+  margin-right: 10px;
+}
+
+.please-select {
+  display: inline-block;
+  margin: 0 0 0 15px;
+}
+
+.restrictions {
+  font-size: 0.8em;
+}
+
+.tournaments{
+  padding: 0 15px;
 }
 
 .form-tournaments {
-  margin: 25px auto;
-  max-width: 800px;
+  margin: 25px 15px;
+  width: 100%;
   padding: 35px;
   background-color: #e9e9e9;
 }
 
 .form-group {
   margin: 25px 0;
+}
+
+.dotted-line {
+  border-top: 1px dashed #272a31;
 }
 
 .btn-tournament {
