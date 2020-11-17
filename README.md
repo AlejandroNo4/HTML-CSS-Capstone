@@ -9,9 +9,9 @@
 **This project is from the Microverses' HTML & CSS curriculum.**
 The goal was to build a page based on a website conference, following these instructions:
 
-- Follow the clients' colours, layouts and design guidelines.
-- To have 3 pages as minimum.
-- Responsivness with one breakpoint
+- Follow the clients' colors, layouts, and design guidelines.
+- To have 3 pages as a minimum.
+- Responsiveness with one breakpoint
 
 Besides the style, it was made to apply all the knowledge and techniques acquired during the past projects, which are mentioned below.
 
