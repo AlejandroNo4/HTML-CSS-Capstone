@@ -1,6 +1,5 @@
 body {
   font-family: "Lato", sans-serif;
-  min-width: 350px;
 }
 
 td {
@@ -265,7 +264,7 @@ td {
 }
 
 .logo-footer {
-  width: 220px;
+  max-width: 220px;
 }
 
 .footer-dark {
