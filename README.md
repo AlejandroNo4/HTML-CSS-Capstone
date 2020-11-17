@@ -1,76 +1,67 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# The Dice Project - Capstone HTML & CSS
 
-> One paragraph statement about the project.
+> Capstone HTML & CSS- Responsive site made following required characteristics.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+**This project is from the Microverses' HTML & CSS curriculum.**
+The goal was to build a page based on a website conference, following these instructions:
+
+- Follow the clients' colours, layouts and design guidelines.
+- To have 3 pages as minimum.
+- Responsivness with one breakpoint
+
+Besides the style, it was made to apply all the knowledge and techniques acquired during the past projects, which are mentioned below.
+
+Here is the link to the original page https://creativecommons.org/licenses/by-nc/4.0/
+The Author of this page is [Cindy Shin](https://www.behance.net/adagio07)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML & CSS
+- Bootstrap
+- FlexBox
+- Grid
+- Visual Studio Code
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://alejandrono4.github.io/HTML-CSS-Capstone/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+**To get a local copy up and running follow these simple example steps.**
 
 ### Prerequisites
 
-### Setup
+- Github Account
+- The last version of Firefox or Goocle Chrome
 
 ### Install
 
+- Clone the Repository to your local machine.
+
 ### Usage
 
-### Run tests
-
-### Deployment
-
-
+- Open the Index file
+- Navigate through the connected pages, which are About us, Tickets and the Home page.
 
 ## Authors
 
-👤 **Author1**
+👤 **Alejandro Contreras Rodriguez**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@AlejandroNo4](https://github.com/AlejandroNo4)
+- Twitter: [@Alejand80002666](https://twitter.com/Alejand80002666)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alejandro-contreras-rodriguez-b524821b5/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/AlejandroNo4/HTML-CSS-Capstone/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
