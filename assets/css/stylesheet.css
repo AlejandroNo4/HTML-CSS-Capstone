@@ -96,8 +96,9 @@ td {
 /********************************** MAIN ************************/
 
 .main-top-section {
-  background: url(../images/background-img/BACKGROUND-DARK-SOULS.jpg) center
-    center / cover no-repeat;
+  background:
+    url(../images/background-img/BACKGROUND-DARK-SOULS.jpg)
+    center center / cover no-repeat;
 }
 
 .layer-transparency {
@@ -319,8 +320,9 @@ td {
 }
 
 .img-about-container {
-  background: url(../images/background-img/playing.jpg) center center / cover
-    no-repeat;
+  background:
+    url(../images/background-img/playing.jpg)
+    center center / cover no-repeat;
   height: 0;
   padding-top: 50%;
   position: relative;
@@ -328,7 +330,8 @@ td {
 }
 
 .img-about-container-2 {
-  background: url(../images/background-img/Terraforming-Mars-6-768x576.jpg)
+  background:
+    url(../images/background-img/Terraforming-Mars-6-768x576.jpg)
     center center / cover no-repeat;
   height: 0;
   padding-top: 50%;
@@ -358,7 +361,7 @@ td {
 
 .tickets-table {
   width: 100%;
-  margin: 25px 0px;
+  margin: 25px 0;
   padding: 0 15px;
 }
 
