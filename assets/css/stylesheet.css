@@ -172,19 +172,37 @@ td {
 .main-program {
   background: #272a31;
   background-size: 15px;
-  padding: 45px 0;
-}
-
-.container-programs {
-  margin: 15px;
-  display: grid;
-  gap: 5px;
-  width: 82%;
-  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  padding: 45px 13px;
 }
 
 .program-title {
+  text-align: center;
+  width: 100px;
   margin: 10px 0;
+}
+
+.program-item {
+  flex: 1;
+  position: relative;
+  background-color: rgba(111, 111, 111, 0.2);
+  margin: 2px;
+  padding: 25px 15px;
+}
+
+.anchor-pass-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.anchor-pass-container:hover {
+  border: 2px solid white;
+}
+
+.pass-text {
+  max-width: 250px;
 }
 
 .speakers {
@@ -403,9 +421,4 @@ td {
 
 .quantity {
   max-width: 45px;
-}
-
-.program-item {
-  background-color: rgba(111, 111, 111, 0.2);
-  padding: 25px 30px 25px 30px;
 }
