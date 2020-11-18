@@ -237,7 +237,7 @@
       <div
         class="section-title-container d-flex justify-content-center flex-column align-items-center"
       >
-        <h4 class="section-title dark-color">Data & Tournaments Inscription</h4>
+        <h4 class="section-title dark-color">Meals & Games to play</h4>
         <div class="orange-title-line"></div>
       </div>
       <section
@@ -248,82 +248,141 @@
           <div class="step d-flex align-items-center">
             <i class="fas fa-square-full"></i> STEP 2
           </div>
-          <p class="please-select">Please fill out this form to continue</p>
+          <p class="please-select">Select a food and a board game</p>
         </div>
-        <form class="form-tournaments">
-          <div class="row row-cols-1 row-cols-md-2 d-flex align-items-end">
-            <div class="col form-group">
-              <label for="tournament-name"
-                >Name <span class="orange">*</span></label
-              >
+
+        <form class="meal-and-game">
+          <div class="text-center">
+            <h6 class="meal-game-title">Available Meals</h6>
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between align-items-center"
+          >
+            <div class="form-check">
               <input
-                type="text"
-                class="form-control"
-                id="tournament-name"
-                placeholder="First name"
+                class="form-check-meal"
+                type="radio"
+                name="meal-game"
+                id="radios1"
               />
+              <label class="form-check-label" for="exampleRadios1">
+                Option1
+              </label>
             </div>
-            <div class="col form-group">
-              <input type="text" class="form-control" placeholder="Last name" />
-            </div>
-          </div>
-          <div class="row row-cols-1 row-cols-md-2 d-flex align-items-end">
-            <div class="col form-group">
-              <label for="email">Email <span class="orange">*</span> </label>
+            <div class="form-check">
               <input
-                type="email"
-                class="form-control"
-                id="email"
-                placeholder="Email"
+                class="form-check-meal"
+                type="radio"
+                name="meal-game"
+                id="radios2"
               />
+              <label class="form-check-label" for="exampleRadios1">
+                Option2
+              </label>
             </div>
-            <div class="col form-group">
-              <label for="telephone"
-                >Telephone <span class="orange">*</span></label
-              >
+            <div class="form-check">
               <input
-                type="tel"
-                class="form-control"
-                id="telephone"
-                placeholder="Telephone"
+                class="form-check-meal"
+                type="radio"
+                name="meal-game"
+                id="radios2"
               />
+              <label class="form-check-label" for="exampleRadios1">
+                Option3
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-meal"
+                type="radio"
+                name="meal-game"
+                id="radios2"
+              />
+              <label class="form-check-label" for="exampleRadios1">
+                Option4
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-meal"
+                type="radio"
+                name="meal-game"
+                id="radios2"
+              />
+              <label class="form-check-label" for="exampleRadios1">
+                Option5
+              </label>
             </div>
           </div>
-          <div class="dotted-line w-100"></div>
-          <div class="form-group">
-            <label for="team-mates">Team</label>
-            <input
-              class="form-control"
-              type="text"
-              id="team-mates"
-              placeholder="Team mates names (separated by a comma)"
-            />
-          </div>
-          <div class="row">
-            <div class="col form-group">
-              <label for="game-board">Game Board</label>
-              <select class="form-control" id="game-board">
-                <option>Terraforming Mars</option>
-                <option>Star Wars Rebellion</option>
-                <option>Pandemic</option>
-                <option>Brass Lancashire</option>
-                <option>Scythe</option>
-                <option>Gloomheaven</option>
-                <option>Dark Souls</option>
-              </select>
-            </div>
-            <div class="col form-group">
-              <label for="type-inscription-game-board">Type</label>
-              <select class="form-control" id="type-inscription-game-board">
-                <option>Solo</option>
-                <option>Team (Vs time)</option>
-              </select>
-            </div>
-          </div>
-          <button type="submit" class="btn btn-tournament btn-block">
-            Submit
-          </button>
         </form>
+
+        <form class="meal-and-game">
+          <div class="text-center">
+            <h6 class="meal-game-title">Available Games</h6>
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between align-items-center"
+          >
+            <div class="form-check">
+              <input
+                class="form-check-meal"
+                type="radio"
+                name="just-game"
+                id="radios1"
+              />
+              <label class="form-check-label" for="exampleRadios1">
+                Option1
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-meal"
+                type="radio"
+                name="just-game"
+                id="radios2"
+              />
+              <label class="form-check-label" for="exampleRadios1">
+                Option2
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-meal"
+                type="radio"
+                name="just-game"
+                id="radios2"
+              />
+              <label class="form-check-label" for="exampleRadios1">
+                Option3
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-meal"
+                type="radio"
+                name="just-game"
+                id="radios2"
+              />
+              <label class="form-check-label" for="exampleRadios1">
+                Option4
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-meal"
+                type="radio"
+                name="just-game"
+                id="radios2"
+              />
+              <label class="form-check-label" for="exampleRadios1">
+                Option5
+              </label>
+            </div>
+          </div>
+        </form>
+        <button type="button" class="btn button-games-meals">
+          Submit and continue
+        </button>
         <ul class="da-rules">
           <li>
             The teams play against time, the team that defeats the game in the
