@@ -6,17 +6,15 @@
 
 ![screenshot](./app_screenshot.png)
 
-**This project is from the Microverses' HTML & CSS curriculum.**
+**This project is from the Microverse HTML & CSS curriculum.**
 
 It is a fictitious gameboard convention built mainly with HTML and CSS. It consists of three pages connected, as well as links that lead to external sites of interest.
 
-On the main page, you can find information about what is included in the fictitious pass, as well as the speakers which are actual game board designers. 
+On the main page, you can find information about what is included in the entrance ticket, also information about the speakers, which are actual game board designers. 
 
 The "tickets" page is another layout where you can navigate through. In here, you can find a table where the user can choose which type of ticket wants to buy, as well as a form that them must fill with some required fields to finish the purchase or if them wants to participate in one of the tournaments.
 
 The third and last page built was the "About" page. It is a simple page where the user can find a description of the page as well as links to galleries from previous years about this convention.
-
-To build these pages bootstrap and flexbox were used mainly.
 
 The main objective of this project was to build these pages according to the design of a conference web page.
 
@@ -26,7 +24,7 @@ The main objective of this project was to build these pages according to the des
 
 
 
-## This ptoject is based on this design https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
+## In the following link, you can find the original design https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
 
 ## The Author of the original design is [Cindy Shin](https://www.behance.net/adagio07)
 
@@ -36,7 +34,7 @@ The main objective of this project was to build these pages according to the des
 
 - HTML & CSS
 - Bootstrap
-- FlexBox
+- Flexbox
 - Grid
 - Visual Studio Code
 
@@ -46,7 +44,7 @@ The main objective of this project was to build these pages according to the des
 
 ## Getting Started
 
-**To get a local copy up and running follow these simple example steps.**
+**To get a local copy up and running, follow these simple example steps.**
 
 ### Prerequisites
 
@@ -60,7 +58,7 @@ The main objective of this project was to build these pages according to the des
 ### Usage
 
 - Open the Index file
-- Navigate through the connected pages, which are About us, Tickets and the Home page.
+- Navigate through the connected pages, which are About us, Tickets, and the Home page.
 
 ## Authors
 
