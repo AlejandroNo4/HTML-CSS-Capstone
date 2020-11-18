@@ -1,0 +1,431 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+td {
+  font-weight: 600;
+}
+
+.list-unstyled {
+  margin: 0;
+}
+
+.white {
+  color: white;
+}
+
+.orange {
+  color: #ec5242;
+}
+
+.dark-color {
+  color: #272a31;
+}
+
+.small-font {
+  font-size: 12px;
+}
+
+.blue {
+  border: 1px solid blue;
+}
+
+.container-max-width {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.margin-15 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.hover-orange:hover {
+  color: #ec5242;
+  text-decoration: none;
+}
+
+/****************************** HEADER ***********************************/
+
+/* HAMBURGUER */
+
+.hamburguer-icon {
+  font-size: 2.5em;
+  z-index: 100000;
+}
+
+/* FIRST NAV */
+
+.first-nav {
+  background-color: #272a31;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.links-first-nav {
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 0.9em;
+}
+
+/* MAIN NAV */
+
+.main-nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(111, 111, 111, 0.2);
+}
+
+.main-nav-item {
+  font-size: 0.9em;
+  margin-left: 30px;
+  margin-right: 30px;
+  white-space: nowrap;
+}
+
+.tickets-button {
+  border: 3px solid #ec5242;
+}
+
+.main-logo {
+  height: 45px;
+}
+
+/********************************** MAIN ************************/
+
+.main-top-section {
+  background:
+    url(../images/background-img/BACKGROUND-DARK-SOULS.jpg)
+    center center / cover no-repeat;
+}
+
+.layer-transparency {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.main-title {
+  font-family: "Montserrat", sans-serif;
+  color: #ec5242;
+  font-weight: 900;
+  font-size: 2.8em;
+  margin: 25px 15px;
+}
+
+.start-date {
+  font-weight: 500;
+  font-size: 1.5em;
+  padding: 0.5em;
+  border: 3px solid #272a31;
+}
+
+.main-top {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+.quote-top {
+  top: 350px;
+  left: 15px;
+  max-width: 550px;
+}
+
+.quote-item {
+  margin: 25px 15px;
+  border: 3px dashed #272a31;
+  color: white;
+  background-color: rgba(68, 68, 68, 0.8);
+  padding: 15px;
+}
+
+.blockquote-footer {
+  color: #d3d3d3;
+}
+
+.button-main-top {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: white;
+  padding: 15px 10px;
+  margin: 25px 0 50px 0;
+  background-color: #ec5242;
+}
+
+/********************************** MAIN PROGRAM ************************/
+
+.section-title-container {
+  padding: 25px;
+}
+
+.section-title {
+  font-size: 25px;
+}
+
+.orange-title-line {
+  border-bottom: 3px solid #ec5242;
+  width: 45px;
+}
+
+.main-program {
+  background: #272a31;
+  background-size: 15px;
+  padding: 45px 13px;
+}
+
+.program-title {
+  text-align: center;
+  width: 100px;
+  margin: 10px 0;
+}
+
+.program-item {
+  flex: 1;
+  position: relative;
+  background-color: rgba(111, 111, 111, 0.2);
+  margin: 2px;
+  padding: 25px 15px;
+}
+
+.anchor-pass-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.anchor-pass-container:hover {
+  border: 2px solid white;
+}
+
+.pass-text {
+  max-width: 250px;
+}
+
+.speakers {
+  padding: 45px 0 105px 0;
+}
+
+.speaker {
+  margin: 12px 0;
+}
+
+.img-speaker-container {
+  margin: 10px 15px 10px 0;
+  min-width: 125px;
+  height: 125px;
+  position: relative;
+}
+
+.gray-img-square {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45px;
+  height: 45px;
+  background-color: rgba(111, 111, 111, 0.2);
+}
+
+.speaker-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+}
+
+.partners {
+  background-color: #272a31;
+  padding: 25px 0 50px 0;
+}
+
+.partners-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.img-partner-cont {
+  margin: 15px 35px;
+  width: 120px;
+}
+
+/********************************** FOOTER ************************/
+
+.footer {
+  padding: 35px 0;
+}
+
+.container-footer {
+  flex-wrap: wrap;
+}
+
+.logo-footer {
+  max-width: 220px;
+}
+
+.footer-dark {
+  background-color: #272a31;
+  color: white;
+}
+
+/********************************** ABOUT-US ************************/
+
+.about-us-info {
+  background-color: rgb(243, 243, 243);
+}
+
+.main-title-about-us {
+  font-weight: 900;
+  padding: 55px 15px;
+}
+
+.cite-about-us {
+  background-color: white;
+  margin: 15px;
+  padding: 45px 65px 65px 65px;
+  border: 1px solid rgba(111, 111, 111, 0.2);
+  text-align: center;
+}
+
+.contact-about-us {
+  text-align: center;
+  padding: 65px 15px;
+}
+
+.logo-menaning {
+  border-bottom: 1px solid rgba(111, 111, 111, 0.3);
+  border-top: 1px solid rgba(111, 111, 111, 0.3);
+  padding: 45px 15px 65px 15px;
+}
+
+.contest-text-container {
+  padding: 25px 65px 65px 65px;
+  text-align: center;
+}
+
+.past-years {
+  padding: 25px 0 65px 0;
+  background-color: rgb(243, 243, 243);
+}
+
+.previous-years-container {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.img-about-container {
+  background:
+    url(../images/background-img/playing.jpg)
+    center center / cover no-repeat;
+  height: 0;
+  padding-top: 50%;
+  position: relative;
+  text-align: center;
+}
+
+.img-about-container-2 {
+  background:
+    url(../images/background-img/Terraforming-Mars-6-768x576.jpg)
+    center center / cover no-repeat;
+  height: 0;
+  padding-top: 50%;
+  position: relative;
+  text-align: center;
+}
+
+.year-center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 900;
+  font-size: 3em;
+  background-color: rgba(236, 82, 66, 0.3);
+}
+
+.year-center:hover {
+  color: #272a31;
+  text-decoration: none;
+}
+
+/********************************** TICKETS ************************/
+
+.tickets-table {
+  width: 100%;
+  margin: 25px 0;
+  padding: 0 15px;
+}
+
+.step-ticket {
+  border: 2px solid #d3d3d3;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin: 25px 0;
+}
+
+.step {
+  color: red;
+  white-space: nowrap;
+  font-size: 1em;
+}
+
+.fa-square-full {
+  transform: rotate(45deg);
+  font-size: 0.5em;
+  margin-right: 10px;
+}
+
+.please-select {
+  display: inline-block;
+  margin: 0 0 0 15px;
+}
+
+.restrictions {
+  font-size: 0.8em;
+}
+
+.tournaments {
+  padding: 0 15px;
+}
+
+.meal-and-game {
+  border: 1px solid #8d9097;
+  width: 100%;
+  margin: 35px 0 0 0;
+}
+
+.form-check {
+  padding: 5px;
+  margin: 15px;
+}
+
+.meal-game-title {
+  background-color: #ededed;
+  font-size: 1.3em;
+  padding: 15px 0;
+}
+
+.button-games-meals {
+  background-color: #ec5242;
+  color: white;
+  font-weight: 500;
+  font-size: 1.2em;
+  padding: 10px 15px;
+  margin-top: 35px;
+}
+
+.da-rules {
+  margin: 55px 15px;
+}
+
+.quantity {
+  max-width: 45px;
+}

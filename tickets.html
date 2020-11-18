@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/stylesheet.css" />
+    <script
+      src="https://kit.fontawesome.com/3a9b044484.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Convention 2021</title>
+  </head>
+  <body>
+    <header class="container-fluid">
+      <!-- FIRST BLACK NAVBAR -->
+      <nav class="row justify-content-center d-none d-md-flex first-nav">
+        <div class="col-12 d-flex justify-content-end container-max-width">
+          <ul class="list-unstyled d-flex">
+            <li>
+              <a href="#" class="links-first-nav hover-orange"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="links-first-nav hover-orange"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="links-first-nav hover-orange">English</a>
+            </li>
+            <li>
+              <a href="#" class="links-first-nav hover-orange">Español</a>
+            </li>
+            <li>
+              <a href="#" class="links-first-nav hover-orange">その良い</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- MAIN NAVBAR -->
+      <nav class="row justify-content-center d-none d-md-flex main-nav">
+        <div class="col-12">
+          <div class="row container-max-width">
+            <div class="col img-container d-flex">
+              <a href="index.html"
+                ><img
+                  src="assets/images/logos/DICE-PROJECT.png"
+                  alt="logo"
+                  class="main-logo"
+              /></a>
+            </div>
+            <div class="items col-6 d-flex justify-content-end">
+              <ul class="list-unstyled d-flex align-items-center">
+                <li>
+                  <a
+                    href="about-us.html"
+                    class="main-nav-item dark-color hover-orange"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://boardgamegeek.com/geekmarket?pageid=1"
+                    target="blank"
+                    class="main-nav-item dark-color hover-orange"
+                    >Buy a game</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://boardgamegeek.com/blogs"
+                    class="main-nav-item dark-color hover-orange"
+                    target="blank"
+                    >Blogs</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://boardgamegeek.com/thread/browse/boardgame/0?sort=recent&forumname=reviews"
+                    target="blank"
+                    class="main-nav-item dark-color hover-orange"
+                    >Reviews</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col button-nav-container d-flex justify-content-end">
+              <a
+                href="tickets.html"
+                class="btn tickets-button dark-color hover-orange"
+              >
+                Buy tickets here!
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- MAIN -->
+    <main>
+      <div class="d-block d-md-none">
+        <nav class="navbar navbar-fixed-top navvar-light bg-faded">
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#collapse-elem"
+          >
+            <i class="fas fa-bars hamburguer-icon"></i>
+          </button>
+          <div id="collapse-elem" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link orange">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="about-us.html" class="nav-link orange">About</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://boardgamegeek.com/geekmarket?pageid=1"
+                  target="blank"
+                  class="nav-link orange"
+                  >Buy a game</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://boardgamegeek.com/blogs"
+                  target="blank"
+                  class="nav-link orange"
+                  >Blogs</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://boardgamegeek.com/thread/browse/boardgame/0?sort=recent&forumname=reviews"
+                  target="blank"
+                  class="nav-link orange"
+                  >Reviews</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <section
+        class="tickets d-flex container-max-width align-items-center flex-column"
+      >
+        <div
+          class="section-title-container d-flex justify-content-center flex-column align-items-center"
+        >
+          <h4 class="section-title dark-color">Tickets</h4>
+          <div class="orange-title-line"></div>
+        </div>
+        <div class="step-ticket d-flex justify-content-center w-50 flex-wrap">
+          <div class="step d-flex align-items-center">
+            <i class="fas fa-square-full"></i> STEP 1
+          </div>
+          <p class="please-select">Please select your ticket type</p>
+        </div>
+        <div class="tickets-table">
+          <table class="table w-100 table-bordered table-hover">
+            <thead>
+              <tr>
+                <th>Ticket</th>
+                <th>1 day</th>
+                <th>2 days</th>
+                <th>All Access</th>
+              </tr>
+            </thead>
+            <tr>
+              <td>Simple</td>
+              <td class="text-center orange">
+                <label for="simple-one">$5.00</label> <br />
+                <input type="radio" name="ticket" id="simple-one" />
+              </td>
+              <td class="text-center orange">
+                <label for="simple-two">$9.00</label> <br />
+                <input type="radio" name="ticket" id="simple-two" />
+              </td>
+              <td class="text-center orange">
+                <label for="simple-all">$21.00</label> <br />
+                <input type="radio" name="ticket" id="simple-all" />
+              </td>
+            </tr>
+            <tr>
+              <td>VIP</td>
+              <td class="text-center orange">
+                <label for="vip-one">$8.00</label> <br />
+                <input type="radio" name="ticket" id="vip-one" />
+              </td>
+              <td class="text-center orange">
+                <label for="vip-two">$12.00</label> <br />
+                <input type="radio" name="ticket" id="vip-two" />
+              </td>
+              <td class="text-center orange">
+                <label for="vip-all">$35.00</label> <br />
+                <input type="radio" name="ticket" id="vip-all" />
+              </td>
+            </tr>
+            <tr>
+              <td>GOLD</td>
+              <td class="text-center orange">
+                <label for="gold-one">$12.00</label> <br />
+                <input type="radio" name="ticket" id="gold-one" />
+              </td>
+              <td class="text-center orange">
+                <label for="gold-two">$16.00</label> <br />
+                <input type="radio" name="ticket" id="gold-two" />
+              </td>
+              <td class="text-center orange">
+                <label for="gold-all">$49.00</label> <br />
+                <input type="radio" name="ticket" id="gold-all" />
+              </td>
+            </tr>
+          </table>
+          <p class="restrictions">
+            To see the details about what does each ticket type include, please
+            click <a href="#" class="orange">here.</a>
+          </p>
+        </div>
+      </section>
+      <!-- INSCRIPTIONS FORM -->
+      <div
+        class="section-title-container d-flex justify-content-center flex-column align-items-center"
+      >
+        <h4 class="section-title dark-color">Meals & Games to play</h4>
+        <div class="orange-title-line"></div>
+      </div>
+      <section
+        class="tournaments d-flex flex-column align-items-center container-max-width"
+      >
+        <h2 class="d-none">.</h2>
+        <div class="step-ticket d-flex justify-content-center w-50 flex-wrap">
+          <div class="step d-flex align-items-center">
+            <i class="fas fa-square-full"></i> STEP 2
+          </div>
+          <p class="please-select">Select a food and a board game</p>
+        </div>
+
+        <form class="meal-and-game">
+          <div class="text-center">
+            <h6 class="meal-game-title">Available Meals</h6>
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between align-items-center"
+          >
+            <div class="form-check">
+              <input
+                class="form-check-meal"
+                type="radio"
+                name="meal-game"
+                id="radios1"
+              />
+              <label class="form-check-label" for="radios1">
+                Option1
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-meal"
+                type="radio"
+                name="meal-game"
+                id="radios2"
+              />
+              <label class="form-check-label" for="radios2">
+                Option2
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-meal"
+                type="radio"
+                name="meal-game"
+                id="radios3"
+              />
+              <label class="form-check-label" for="radios3">
+                Option3
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-meal"
+                type="radio"
+                name="meal-game"
+                id="radios4"
+              />
+              <label class="form-check-label" for="radios4">
+                Option4
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-meal"
+                type="radio"
+                name="meal-game"
+                id="radios5"
+              />
+              <label class="form-check-label" for="radios5">
+                Option5
+              </label>
+            </div>
+          </div>
+        </form>
+
+        <form class="meal-and-game">
+          <div class="text-center">
+            <h6 class="meal-game-title">Available Games</h6>
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between align-items-center"
+          >
+            <div class="form-check">
+              <input
+                class="form-check-meal"
+                type="radio"
+                name="just-game"
+                id="check1"
+              />
+              <label class="form-check-label" for="check1">
+                Option1
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-meal"
+                type="radio"
+                name="just-game"
+                id="check2"
+              />
+              <label class="form-check-label" for="check2">
+                Option2
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-meal"
+                type="radio"
+                name="just-game"
+                id="check3"
+              />
+              <label class="form-check-label" for="check3">
+                Option3
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-meal"
+                type="radio"
+                name="just-game"
+                id="check4"
+              />
+              <label class="form-check-label" for="check4">
+                Option4
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-meal"
+                type="radio"
+                name="just-game"
+                id="check5"
+              />
+              <label class="form-check-label" for="check5">
+                Option5
+              </label>
+            </div>
+          </div>
+        </form>
+        <button type="button" class="btn button-games-meals">
+          Submit and continue
+        </button>
+        <ul class="da-rules">
+          <li>
+            The teams play against time, the team that defeats the game in the
+            shortest time will be the winner. In case the team loses, it will
+            leave the competition.
+          </li>
+          <li>
+            When you sign up for yourself or your team in a tournament, entry to
+            the convention will be free every day until the closing ceremony.
+          </li>
+          <li>
+            The number of people per team is determined by the maximum number of
+            players per board game. (eg. Gloomheaven - 4 people, Pandemic - 4
+            people)
+          </li>
+          <li>
+            Every tournament starts at 10:00 A.M. The second round will start at
+            3:00 P.M. And the finalists will be decided in the last round, at
+            8:00 P.M.
+          </li>
+          <li>
+            The finalists of every game will compete on the final day at 4:00
+            P.M.
+          </li>
+          <li>
+            For more details about fees and prizes, please read these
+            <a href="#" class="orange hover-orange">guidelines</a> carefully
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer container-fluid footer-dark">
+      <section
+        class="row row-cols-1 row-cols-md-2 d-flex justify-content-center container-max-width container-footer align-items-center"
+      >
+        <h2 class="d-none">.</h2>
+        <div class="col col-md-4 d-flex justify-content-center">
+          <img
+            src="assets/images/logos/DICE-PROJECT-WHITE-SHADOW.png"
+            alt="Logo footer"
+            class="logo-footer img-fluid w-50"
+          />
+        </div>
+        <div class="col col-md-8">
+          <p class="small-font">
+            <strong>2020 The Dice Project All Rights Reserved</strong> <br />
+            我们烧毁了高速公路的天际线 在飓风开始后的回归中 你小时候 你小时候
+            有时候我闭上眼睛 看看你住的地方 你小时候 他们说魔鬼的水不是那么甜
+            你现在不用喝酒 但是你可以蘸脚 每隔一段时间
+          </p>
+        </div>
+      </section>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
